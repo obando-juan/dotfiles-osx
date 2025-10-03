@@ -1,5 +1,5 @@
 # Set ENV variables
-export PATH=$HOME/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/local/sbin:$PATH
+export PATH=$HOME/.local/bin:$HOME/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/local/sbin:$PATH
 
 export DOTFILES=$HOME/Dev/dotfiles-osx
 
@@ -33,9 +33,6 @@ export MANPAGER="less -X"
 export XDEBUG_CONFIG="idekey=PHPSTORM"
 
 # Composer
-export COMPOSER_MEMORY_LIMIT=-1
-export COMPOSER_ALLOW_XDEBUG=1
-export COMPOSER_DISABLE_XDEBUG_WARN=1
-
-# To link Rubies to Homebrew's OpenSSL 1.1
-export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
+# export COMPOSER_MEMORY_LIMIT=-1
+# export COMPOSER_ALLOW_XDEBUG=1
+# export COMPOSER_DISABLE_XDEBUG_WARN=1
