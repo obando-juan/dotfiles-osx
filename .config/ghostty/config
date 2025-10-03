@@ -1,0 +1,8 @@
+font-family = Inconsolata
+font-feature = -dlig
+font-size = 13
+font-style = Regular Regular
+font-variation = wght=500
+alpha-blending = native
+auto-update = check
+auto-update-channel = stable
