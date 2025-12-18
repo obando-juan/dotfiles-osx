@@ -42,6 +42,9 @@
 	allowedSignersFile = "$HOME/.config/git/allowed_signers"
 	program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
 
+[init]
+	defaultBranch = main
+
 [interactive]
 	diffFilter = "`brew --prefix`/share/git-core/contrib/diff-highlight/diff-highlight | less"
 
